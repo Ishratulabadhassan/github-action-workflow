@@ -1,10 +1,12 @@
-name : ishrat ali
+name: Ishrat Ali
+
 on:
   push:
-      branches:[ main ]
+    branches: [ main ]
+
 jobs:
-    demo:
-        runs-on: ubuntu-latest
-        steps:
-          - name: greetings
-            run: echo "hello ishrat ali"
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greetings
+        run: echo "Hello Ishrat Ali"
